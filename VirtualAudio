@@ -1,0 +1,7 @@
+#!/bin/sh
+pactl load-module module-null-sink sink_name=Virtual_Game
+
+pactl load-module module-null-sink sink_name=Virtual_Web
+
+pactl load-module module-null-sink sink_name=Virtual_Mic
+

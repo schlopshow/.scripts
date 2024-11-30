@@ -1,0 +1,35 @@
+#!/bin/bash
+
+cd ~/Downloads
+
+mp3=*.mp3
+mp4=*.mp4
+pdf=*.pdf
+vpn=*.ovpn
+
+if test -f "$mp3"; then
+	mv *.mp3 ~/Music
+fi
+
+if test -f "$mp4"; then
+	mv *.mp4 ~/Videos
+fi
+
+if test -f "$pdf"; then
+	echo "true"
+	mv *.pdf PDFs
+fi
+
+if test -f "$vpn"; then
+	mv *.ovpn VPN
+fi
+
+
+
+#mv *.png ~/Pictures
+#mv *.jpg ~/Pictures
+#mv *.jpeg ~/Pictures
+#mv *.zip zips
+#mv *.jar Java
+#mv *.m4a ~/Music
+#mv *.ttf ~/.fonts

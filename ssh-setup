@@ -1,0 +1,4 @@
+#!/bin/sh
+ssh-agent >/dev/null || exit 1
+ssh-add ~/.ssh/$HOST
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/Downloads/Servers/VHserver2
+./run.sh
